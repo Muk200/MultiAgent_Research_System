@@ -166,4 +166,97 @@ Its objective is to identify:
 
 ### 3. Agent Processing
 
-LangGraph manages the execution flow between the di
+LangGraph manages the execution flow between the different agents.
+
+Each agent can perform a specific task while the overall workflow maintains the state of the research process.
+
+### 4. Analysis
+
+The collected information is processed by the AI system to identify important findings and organize them into a meaningful structure.
+
+### 5. Final Research Output
+
+The system generates a structured research response that can contain:
+
+Introduction
+Key findings
+Important developments
+Analysis
+Supporting information
+Conclusion
+
+```text
+Example Workflow
+Enter Topic
+     │
+     ▼
+Research Agent
+     │
+     ▼
+Collect Information
+     │
+     ▼
+Analyze Information
+     │
+     ▼
+Organize Findings
+     │
+     ▼
+Generate Research Report
+```
+
+### Why Multi-Agent Architecture?
+
+A multi-agent architecture divides a complex research task into smaller specialized tasks.
+
+Instead of relying on a single AI agent to perform searching, analysis, and report generation simultaneously, different agents can be assigned specific responsibilities.
+
+This improves:
+
+* Modularity
+* Maintainability
+* Task specialization
+* Workflow control
+* Extensibility
+
+Additional agents can be added later for tasks such as:
+
+```text
+Fact Checking
+     │
+Citation Verification
+     │
+Summarization
+     │
+Report Generation
+     │
+Quality Evaluation
+```
+
+### Future Improvements
+
+* Add multiple independent research agents
+* Add source credibility scoring
+* Add automatic citation generation
+* Add fact-checking agent
+* Add PDF research report generation
+* Add persistent research history
+* Add vector database for knowledge storage
+* Add RAG-based research
+* Add support for multiple LLM providers
+* Add research quality evaluation
+* Add parallel agent execution
+  
+### Important Note
+
+This project is intended for research assistance and experimentation. AI-generated information should be independently verified before being used for academic, professional, financial, legal, medical, or other high-impact purposes.
+
+### Author
+
+Muskan Pasricha
+
+### AI / Machine Learning | Data Science | Generative AI
+
+### License
+
+This project is available for educational and research purposes.
